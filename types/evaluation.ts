@@ -1,20 +1,3 @@
-// export interface InstitutionData {
-//   institution: string;
-//   city: string;
-//   type: string;
-//   area: string;
-
-//   evaluatorName: string;
-//   evaluatorRole: string;
-
-//   aiTool: string;
-//   frequency: string;
-// }
-
-// export interface Answers {
-//   [questionId: number]: number;
-// }
-
 export interface InstitutionData {
   institution: string;
   city: string;

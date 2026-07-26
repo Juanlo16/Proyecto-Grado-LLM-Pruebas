@@ -8,15 +8,19 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { label: 'Marco', href: '/framework' },
-    { label: 'Riesgos', href: '/privacy-risks' },
-    { label: 'Cumplimiento', href: '/compliance' },
-    { label: 'Escenarios', href: '/scenarios' },
-    { label: 'Prototipo', href: '/prototype' },
-    { label: 'Recursos', href: '/resources' },
-    { label: 'Más Información', href: '/more-info' },
-    { label: 'Acerca de', href: '/about' },
-  ]
+  { label: 'Marco', href: '/framework' },
+  { label: 'Riesgos', href: '/privacy-risks' },
+  { label: 'Cumplimiento', href: '/compliance' },
+  { label: 'Escenarios', href: '/scenarios' },
+  { label: 'Prototipo', href: '/prototype' },
+
+  // 👇 Nuevo módulo
+  { label: 'Evaluación', href: '/evaluation' },
+
+  { label: 'Recursos', href: '/resources' },
+  { label: 'Más Información', href: '/more-info' },
+  { label: 'Acerca de', href: '/about' },
+]
 
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

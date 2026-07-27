@@ -106,22 +106,22 @@ export default function PrivacyRisksContent() {
           <ThemeCard
             title="Protección y Minimización de Datos"
             description="Muchos de los riesgos asociados al uso de modelos de lenguaje surgen por la exposición innecesaria de información. Aplicar principios de minimización de datos y controlar cuidadosamente la información compartida con los modelos reduce significativamente los riesgos para la privacidad."
-            risks={['Unauthorized Data Exposure', 'Inference-Based Data Reconstruction', 'Data Retention Issues']}
+            risks={['Exposición no autorizada de datos', 'Reconstrucción de información mediante inferencias', 'Problemas de retención de datos']}
           />
           <ThemeCard
-            title="Access Control & Authentication"
-            description="Proper access controls, authentication mechanisms, and audit logging are critical for preventing both unauthorized system access and insider threats."
-            risks={['Unauthorized Access', 'Prompt Injection Attacks', 'System Vulnerabilities']}
+            title="Control de Acceso y Autenticación"
+            description="La implementación de mecanismos de autenticación, controles de acceso y registros de auditoría permite prevenir accesos no autorizados y fortalecer la seguridad en el uso institucional de herramientas basadas en inteligencia artificial."
+            risks={[' Acceso no autorizado', 'Ataques mediante inyección de instrucciones (Prompt Injection)', 'Vulnerabilidades del sistema']}
           />
           <ThemeCard
-            title="Model Limitations & Human Oversight"
-            description="LLMs have inherent limitations including hallucination and bias. Human oversight and verification remain essential for decisions affecting individuals."
-            risks={['Hallucination & Misinformation', 'Bias & Discrimination', 'Unreliable Predictions']}
+            title="Limitaciones de los Modelos y Supervisión Humana"
+            description="Los modelos de lenguaje pueden generar respuestas incorrectas, sesgadas o imprecisas. La supervisión humana es fundamental para validar la información antes de utilizarla en procesos académicos o administrativos."
+            risks={['Alucinaciones y desinformación', 'Sesgos y discriminación', 'Predicciones poco confiables']}
           />
           <ThemeCard
-            title="Compliance & Governance"
-            description="Establishing clear governance frameworks, compliance procedures, and third-party oversight ensures institutional accountability and regulatory adherence."
-            risks={['Regulatory Non-Compliance', 'Third-Party Risks', 'Inadequate Oversight']}
+            title="Cumplimiento Normativo y Gobernanza"
+            description="La definición de políticas institucionales, procedimientos de cumplimiento y mecanismos de supervisión fortalece la gobernanza de la inteligencia artificial y favorece el cumplimiento de la normativa sobre protección de datos."
+            risks={['Incumplimiento normativo', 'Riesgos asociados a terceros', 'Supervisión insuficiente']}
           />
         </div>
       </section>
@@ -198,7 +198,7 @@ function ThemeCard({
       <h3 className="font-bold text-primary mb-3">{title}</h3>
       <p className="text-sm text-muted-foreground mb-4">{description}</p>
       <div className="space-y-2">
-        <p className="text-xs font-semibold text-foreground">Related Risks:</p>
+        <p className="text-xs font-semibold text-foreground">Riesgos relacionados:</p>
         <ul className="space-y-1">
           {risks.map((risk, idx) => (
             <li key={idx} className="text-xs text-muted-foreground flex gap-2">

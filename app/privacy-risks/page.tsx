@@ -3,6 +3,7 @@ import { privacyRisks, riskCategories } from '@/lib/data/risks'
 import { RiskCard } from '@/components/RiskCard'
 import { HeroSection } from '@/components/HeroSection'
 import PrivacyRisksContent from './content'
+import React, { useState } from "react";
 
 export const metadata: Metadata = {
   title: 'Riesgos de Privacidad | Marco de Privacidad LLM',

@@ -170,7 +170,7 @@ function StandardCard({ standard }: { standard: (typeof complianceStandards)[0] 
       </div>
 
       <div>
-        <p className="text-sm font-semibold text-foreground mb-3">Key Requirements:</p>
+        <p className="text-sm font-semibold text-foreground mb-3">Requisitos Principales:</p>
         <ul className="grid md:grid-cols-2 gap-3">
           {standard.keyRequirements.map((req, idx) => (
             <li key={idx} className="flex gap-2 text-sm">

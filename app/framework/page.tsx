@@ -148,20 +148,20 @@ export default function FrameworkPage() {
               duration="Semanas 13-24"
               items={[
                 'Desplegar controles técnicos',
-                'Implement access controls',
-                'Configure monitoring systems',
-                'Conduct security testing',
+                'Implementar controles de acceso',
+                'Configurar sistemas de monitoreo',
+                'Realizar pruebas de seguridad',
               ]}
             />
             <TimelineItem
               phase="Phase 4"
               title="Compliance Verification & Monitoring"
-              duration="Ongoing"
+              duration="Proceso continuo"
               items={[
-                'Verify compliance across all pillars',
-                'Establish continuous monitoring',
-                'Conduct regular audits',
-                'Update policies as needed',
+                'Verificar el cumplimiento de las políticas y controles implementados',
+                'Establecer un monitoreo continuo de los riesgos',
+                'Realizar auditorías y evaluaciones periódicas',
+                'Actualizar las políticas y procedimientos cuando sea necesario',
               ]}
             />
           </div>

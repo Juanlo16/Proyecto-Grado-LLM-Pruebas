@@ -100,12 +100,12 @@ export default function PrivacyRisksContent() {
 
       {/* Common Themes */}
       <section className="mt-20 pt-20 border-t border-border">
-        <h2 className="text-2xl font-bold mb-8">Common Themes Across Risks</h2>
+        <h2 className="text-2xl font-bold mb-8">Temas Comunes en los Riesgos</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           <ThemeCard
-            title="Data Protection & Minimization"
-            description="Many risks stem from exposing too much data to LLMs. Following data minimization principles and carefully controlling what data is provided to models significantly reduces risk."
+            title="Protección y Minimización de Datos"
+            description="Muchos de los riesgos asociados al uso de modelos de lenguaje surgen por la exposición innecesaria de información. Aplicar principios de minimización de datos y controlar cuidadosamente la información compartida con los modelos reduce significativamente los riesgos para la privacidad."
             risks={['Unauthorized Data Exposure', 'Inference-Based Data Reconstruction', 'Data Retention Issues']}
           />
           <ThemeCard

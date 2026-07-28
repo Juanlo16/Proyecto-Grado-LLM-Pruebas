@@ -422,10 +422,9 @@ Universidad Nacional Abierta y a Distancia (UNAD)
 
 **Autores**
 
-- Juan Pablo Londoño Corrales
-- Antonio Ampudia
-- Luis Fernando Mejía
-
+- Jesús Antonio Acevedo Montoya 
+- Daniel Felipe Villa Duarte 
+- Juan Pablo Londoño Corrales 
 
 ---
 

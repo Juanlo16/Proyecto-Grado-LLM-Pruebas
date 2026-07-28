@@ -1,7 +1,7 @@
 ---
 title: "Sistema de Evaluación de Riesgos de Privacidad y Fuga de Datos en el Uso de Modelos de Lenguaje (LLM)"
 subtitle: "Documento Maestro del Proyecto"
-author: "Juan Pablo Londoño Corrales, Antonio Ampudia, Luis Fernando Mejía"
+author: "- Jesús Antonio Acevedo Montoya, Daniel Felipe Villa Duarte, Juan Pablo Londoño Corrales "
 date: "Julio 2026"
 version: "2.0"
 estado: "Versión Final"
